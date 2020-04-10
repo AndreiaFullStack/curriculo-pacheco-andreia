@@ -1,0 +1,83 @@
+/*RESETS*/
+*{
+   /* border: 1 px solid red;
+   background-color: rgba(243, 29, 29, 0.3);
+   border: 2px dashed #7df31d; 
+    box-sizing: border-box; 
+        margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth; e o comportamento do nosso scroll e quando clicamos e isso vai levar para cima ou
+    para baixo da pagina  */
+}
+
+* {    
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth; 
+}
+
+   
+ul {
+    list-style: none;
+    }
+
+hr {
+    margin: 20px 0;
+}
+
+li:first-child,
+hr {
+    margin: 20px 0;
+}
+
+hr
+    {
+    margin: 20px 0;
+}
+
+header p:first-child {
+    font-weight: bold;
+    color: blue;
+}
+hr {
+    margin: 20px 0;
+    
+}
+main,
+aside {
+    margin: 20px 40px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: ghostwhite;
+
+
+main
+ {
+    border-width: 2px;
+    border-style: groove;
+    border-color: darkgreen;
+    border-radius: 10px 20px 30px 40px;
+    padding: 15px;
+                
+}
+
+section .destaque {
+    color: red;
+}
+
+
+img:hover {
+    transform: rotate(30);
+}
+    
+.a [href="#meuheader"] {
+
+    background-color: red;
+    color: #fff;
+    border: 2px dotted black;
+    padding: 10px 20px;
+    text-transform: capitalize;
+}
